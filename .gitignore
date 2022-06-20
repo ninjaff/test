@@ -13,3 +13,21 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+
+#go 
+vendor
+
+#go mod
+go.sum
+
+#gozero gen files
+*.pb.go
+*_gen.go
+service/*/api/internal/handler/routes.go
+service/*/api/internal/types/
+service/*/rpc/internal/server/
+service/*/rpc/user/
+
+#swagger
+*.json

@@ -1,0 +1,1 @@
+goctl api plugin -plugin goctl-swagger="swagger -filename product.json -host localhost:8001" -api api/product.api -dir .
